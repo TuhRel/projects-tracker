@@ -90,7 +90,7 @@ function App() {
         name='ProjectLessons' 
         placeholder='Project Lessons' 
         onChange={setInput}></input>
-      <button onClick={() => fetchData()}>Click</button>
+      <button onClick={() => fetchData()}>Search</button>
       <button onClick={() => createProject()}>Create</button>
       <p>ProjectID: {returnedData.ProjectID}</p>
       <p>ProjectName: {returnedData.ProjectName}</p>
