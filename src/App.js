@@ -68,7 +68,7 @@ function App() {
       <input 
         type='number' 
         name='ProjectID' 
-        placeholder='ProjectID' 
+        placeholder='Project ID' 
         onChange={setInput}></input>
       <input 
         name='ProjectName' 
